@@ -1,0 +1,4 @@
+# loan_sanction_prediction1
+The analytics vidya dataset containing information of customers with loan sanction status is explored to predict the loan sanction status for the new customers. Initially SVM classifier is trained using the training dataset and trained model is used to predict the loan sanction status for new set of customers. The sklearn pipeline is designed to make the data cleaning and classification process modular. The usefulness of pipeline in model selection is demonstrated. The hyperparameter tuning using GridSearchCV and RandomizedSearchCV is performed to arrive at the best parameters for the selected model for classification.
+Python modules: pandas, numpy, matplotlib, seaborn, scikit-learn, keras.
+Concepts explored: Data wrangling, sklearn pipeline, model selection, hyperparameter tuning.
